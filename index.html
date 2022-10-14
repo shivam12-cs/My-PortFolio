@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="index.html"><img src="favicon1.png" alt="$">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#portfolio" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="home" id="home">
+        <div class="hm">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Shivam Singh</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div> <br>
+                <a href="#contact">Hire me</a>
+            </div>
+        </div>
+        <img src="manOnTable.png" alt="image will load soon">  
+    </div>
+     
+
+    <section id="about">
+        <div class="me"><h1>About me</h1></div>
+        <div style="display: flex;">       
+        <div class="data"><h1>I'm Shivam and I'm a <span class="typing-2"></span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore in doloribus recusandae quidem aspernatur magni exercitationem necessitatibus, quas, sunt doloremque nostrum blanditiis ut perspiciatis consequatur eum delectus accusamus fugit.
+        Explicabo odit consequatur eaque, adipisci impedit deserunt eos corrupti amet dolore ducimus porro debitis id pariatur vitae odio sapiente ullam, suscipit eum sit aspernatur! Numquam doloribus praesentium tempora quae at?
+        </p></div><img src="image1.png" alt="" class="myimage">
+        </div>
+        
+    </section>
+    
+    <section id="skills" >
+    <div class="skills"><div class="me" ><h1>Skills</h1></div>
+    <div style="display: flex;">
+        <div>
+            <h2 id="skl">My Creative Skills</h2>
+            <p id="marker">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt id repellat in et ad, quis tenetur ullam, beatae totam nobis non. Natus officia nesciunt aliquam fuga impedit soluta, voluptate suscipit.
+            Optio voluptatem ex similique omnis deleniti odio, ipsa neque accusantium facere voluptate laboriosam ipsum dolorum incidunt, illo reiciendis exercitationem itaque nemo, esse quasi quia autem ea nisi architecto harum. Dignissimos.</p>
+        </div>
+        <div id="mkr">
+            <h2>C++</h2>
+            <div class="line1"><div id="line1"></div></div>
+            <h2>Data Structures</h2>
+            <div class="line1"><div id="line2"></div></div>
+            <h2>Web dev</h2>
+            <div class="line1"><div id="line3"></div></div>
+            <h2>Java</h2>
+            <div class="line1"><div id="line4"></div></div>
+        </div>
+    </div>
+    </div>
+    
+</section>
+
+<section id="portfolio">
+    <h1 class="section-heading mb75px">
+        <span>
+            <i class="fas fa-th-list"></i>
+        </span>
+        <span> Projects </span>
+    </h1>
+
+    <div id="portfolio-container">
+        <div class="portfolio-image-container">
+            <img src="p1.jpeg">
+            <div class="portfolio-details">
+                <p>
+                    This is a basic Ecommerce Website Made using HTML ,CSS and JS.the project is currently in development phase.
+                </p>
+            </div>
+
+        </div>
+        <div class="portfolio-image-container">
+            <img src="p2.png">
+            <div class="portfolio-details">
+                <p>
+                    This is a basic To-do-list Made using JS.The project is is ready and you can watch the Output on the given link.
+                    <a href="https://shivam12-cs.github.io/to-do-list/" target="_blank" style="text-decoration:none;color:aliceblue;">Click Here!!</a>
+                </p>
+            </div>
+    
+
+        </div>
+        <div class="portfolio-image-container">
+            <img src="p3.jpg">
+            <div class="portfolio-details">
+                <p>
+                    This Same project is my Portfolio.
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="contact">
+    <h1 class="section-heading mb50px">
+        <span>
+            <i class="far fa-address-card"></i>
+        </span>
+        <span> Contact </span>
+    </h1>
+    <div id="contact-container">
+
+        <div id="contact-form-container">
+            <form id="contact-form">
+                <input id="input-name" name="name" type="text" placeholder="Your Name">
+                <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                <button class="sub-btn" type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div id="my-details-container">
+
+            <h2> Get In touch </h2>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+            <h2> My Address </h2>
+            <div class="my-details-info-container">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Ludhiana,Punjab,India</span>
+            </div>
+            <div class="my-details-info-container">
+                <i class="fas fa-mobile-alt"></i>
+                <span>8557041446</span>
+            </div>
+            <div class="my-details-info-container">
+                <i class="far fa-envelope"></i>
+                <span>hardiksam5202002@gmail.com</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer><p id="foot">@ copyright Shivam Singh</p></footer>
+
+
+    <script src="project.js"></script>
+</body>
+</html>
